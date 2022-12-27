@@ -9,13 +9,14 @@
   <meta name="description" content="Faizan Khan" />
   <meta name="keywords" content="Khan, Faizan" />
   <meta name="author" content="Faizan Khan" />
-  <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
-  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <meta name="theme-color" content="#ffffff">
   <link rel="manifest" href="favicon/site.webmanifest">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/animate.css" type="text/css">
   <link rel="stylesheet" href="css/animations.css" type="text/css">
@@ -51,13 +52,19 @@
             <li>
               <a class="pt-trigger" href="#resume">Resume</a>
             </li>
+            <li>
+              <a class="pt-trigger" href="#projects">Projects</a>
+            </li>
           </ul>
         </div>
         <div class="social-links">
-          <a href="https://www.linkedin.com/in/faizankhan90/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.facebook.com/faizankhan.pucit/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/faizankhan.msg" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://twitter.com/fazi1909" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/faizankhan90/" target="_blank" rel="noopener"><i
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/faizankhan.pucit/" target="_blank" rel="noopener"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/faizankhan.msg" target="_blank" rel="noopener"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/fazi1909" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="copyrights">© 2022 Don't feed the trolls.</div>
       </div>
@@ -72,12 +79,8 @@
         <div class="mobile-site-title"><a href="#">Faizan Khan</a></div>
       </div>
       <a class="menu-toggle mobile-visible">
-        <i class="fa fa-bars"></i>
+        <i id="mobile_menu_icon" class="fa fa-bars"></i>
       </a>
-    </div>
-    <div class="lmpixels-arrows-nav" style="display: none;">
-      <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
-      <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
     </div>
     <div id="main" class="site-main">
       <div class="pt-wrapper">
@@ -90,13 +93,13 @@
               </div>
               <div class="section-content">
                 <div class="row bs-30">
-                  <div class="col-xs-6 col-sm-6">
+                  <div class="col-12 col-md-6">
                     <h3>Currently a Principal Software Engineer @ Revolving Games, Inc.</h3>
                     <p>Passionate engineer with 10+ yrs of experience working as a web/mobile game/application
                       developer, in startups and enterprises; crafted architects that worked well on scale, built
                       apps that provided meaningful user experience.</p>
                   </div>
-                  <div class="col-xs-6 col-sm-6">
+                  <div class="col-12 col-md-6">
                     <ul class="info-list">
                       <li><span class="title">Age</span><span class="value"><span id='curr-age'></span></li>
                       <li><span class="title">Location</span><span class="value">Lahore, Pakistan</span></li>
@@ -107,14 +110,14 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12">
+                  <div class="col-12">
                     <div class="col-inner">
                       <div class="block-title">
                         <h3>What I Do</h3>
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-12 col-md-6">
                     <div class="col-inner">
                       <div class="info-list-w-icon">
                         <div class="info-block-w-icon">
@@ -142,7 +145,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-6">
+                  <div class="col-12 col-md-6">
                     <div class="col-inner">
                       <div class="info-list-w-icon">
                         <div class="info-block-w-icon">
@@ -184,7 +187,7 @@
               </div>
               <div class="section-content">
                 <div class="row">
-                  <div class="col-xs-12 col-sm-8">
+                  <div class="col-sm-12 col-md-8">
                     <div class="col-inner bs-30">
                       <div class="block-title">
                         <h3>Education</h3>
@@ -198,7 +201,14 @@
                           </div>
                           <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">BS(IT) Hons.</h4>
+                            <h4 class="item-title">
+                              BS(IT) Hons.
+                              <a href="http://pu.edu.pk/document/results/9BS-IT-Session-Fall-2007-07-11.pdf"
+                                target="_blank" rel="noopener">
+                                <img style="height: 26px; width: 26px;"
+                                  src="https://img.icons8.com/emoji/48/null/1st-place-medal-emoji.png" />
+                              </a>
+                            </h4>
                             <p>A rigorous pure Computer Science program from the get-go.</p>
                           </div>
                         </div>
@@ -314,7 +324,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-4">
+                  <div class="col-sm-12 col-md-4">
                     <div class="col-inner">
                       <div class="block-title">
                         <h3>Development Skills<span></span></h3>
@@ -402,11 +412,259 @@
                 <!-- <div class="row">
                   <div class="col-xs-12 col-sm-12">
                     <div class="col-inner ts-30">
-                      <a href="assets/faizankhan.pdf" target="_blank" class="btn btn-primary">Download
+                      <a href="assets/faizankhan.pdf" target="_blank" rel="noopener" class="btn btn-primary">Download
                         Resume</a>
                     </div>
                   </div>
                 </div> -->
+              </div>
+            </div>
+          </section>
+          <section class="pt-page" data-id="projects">
+            <div class="section-inner custom-page-content">
+              <div class="section-title-block second-style">
+                <h2 class="section-title">Projects</h2>
+                <h5 class="section-description">Web/Mobile Game/Application Development</h5>
+              </div>
+              <div class="section-content">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="col-inner bs-30">
+                      <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Jul 2022 - Present</h5>
+                            <span class="item-company">Revolving Games, Inc.</span>
+                            <span class="item-company">Principal Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">
+                              Skyborne Legacy
+                              <a href="https://www.skybornelegacy.com/" target="_blank" rel="noopener">
+                                <i class="fa fa-external-link-square-alt"></i>
+                              </a>
+                            </h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>node.js, next.js, strapi, esLint, bootstrap,
+                              wagmi, web3.js,
+                              solidity.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>Admin Portal.</li>
+                              <li>Product Website.</li>
+                              <li>NFT Staking WebGame.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>Skyborne Legacy is a social world exploration and trading
+                            MMORPG where
+                            you can explore, create, customize and battle. With seasons that reflect real life, there’s
+                            new activities to discover each week. Set your own pace and do what you love.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Aug 2021 - Apr 2022</h5>
+                            <span class="item-company">Revolving Games, Inc.</span>
+                            <span class="item-company">Principal Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">
+                              Revolving Games Website
+                              <a href="https://www.revolvinggames.com/" target="_blank" rel="noopener">
+                                <i class="fa fa-external-link-square-alt"></i>
+                              </a>
+                            </h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>node.js, next.js, strapi, esLint,
+                              bootstrap.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>Boilerplate & ESlint setup.</li>
+                              <li>Strapi integration to fetch Terms & Privacy.</li>
+                              <li>Strapi integration to fetch Dynamic Job Listings.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>Revolving Games, inc, a AAA Web3 blockchain game company
+                            consisting of
+                            game industry veterans that have generated over $5.3B+ in lifetime revenue. Our vision
+                            focuses on building social games for the Web3 Blockchain space, powered by NFTs.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Jan 2020 - Jul 2021</h5>
+                            <span class="item-company">Fizz.io</span>
+                            <span class="item-company">Principal Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Cheetay POP</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>node.js, react.js, firebase, Google Cloud
+                              Platform.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>React SPA for Admin Operations.</li>
+                              <li>Backend Server Architecture and Implementation using Firebase.</li>
+                              <li>Google Cloud Task Queue for Quiz Scheduling and Rewards Distribution Job.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>A trivia based game where users participate in real-time
+                            answering
+                            questions, using lifelines and winning rewards.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Aug 2018 - Aug 2019</h5>
+                            <span class="item-company">Fizz.io</span>
+                            <span class="item-company">Principal Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">
+                              Fizz Tools & SPA
+                              <a href="https://www.fizz.io/" target="_blank" rel="noopener">
+                                <i class="fa fa-external-link-square-alt"></i>
+                              </a>
+                            </h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>node.js, react.js, redux.js, postgress, new
+                              relic, AWS(EBS),
+                              Semantic UI.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>Fizz Docs.</li>
+                              <li>Fizz Website.</li>
+                              <li>Fizz Admin Dashboard.</li>
+                              <li>Fizz CLI (CMD line interface for Fizz Admin).</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>Website and Admin panel for managing Fizz clients and
+                            applications.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Apr 2016 - Jul 2018</h5>
+                            <span class="item-company">Fizz.io</span>
+                            <span class="item-company">Senior Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Fizz Chat SDK & UI Framework</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>iOS objC, Socket.io.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>AutoLayouts for Responsive UI.</li>
+                              <li>Socket.io integration for sending/receiving messges in Near Real-Time.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>Fizz is a fully managed feature rich Chat Solution with
+                            Auto-Translations in 50+ languages and an industry-first Chat Analytics Platform (Sentiment,
+                            Keyword Trends, Chat Search) to get the real-time pulse of your audience.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Jan 2015 - Apr 2015</h5>
+                            <span class="item-company">Ebryx (Pvt.) Ltd.</span>
+                            <span class="item-company">Senior Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Math Quest Watch App</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>iOS swift, WatchKit, Parse SDK.<br />
+                              <b>Contributions:&nbsp;&nbsp;</b>Group Layout for Responsive UI.<br />
+                              <b>Description:&nbsp;&nbsp;</b>A simple and fun multiplication/division game for kids on
+                              your Apple Watch! A perfect way for children to practice their newly found math skills.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Aug 2014 - Jan 2015</h5>
+                            <span class="item-company">Ebryx (Pvt.) Ltd.</span>
+                            <span class="item-company">Senior Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">PreceptWine</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>iOS objC, Parse SDK.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>AutoLayouts for Responsive UI.</li>
+                              <li>Parse SDK integration to fetch catalog Information.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>An enterprise app built for the marketing team to showcase
+                            their products.</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">May 2013 - Jun 2014</h5>
+                            <span class="item-company">GameView Studios</span>
+                            <span class="item-company">Senior Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">HayRide</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>cocos2dx, Google App Engine.<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>Shop & inApp purchases.</li>
+                              <li>IsometricView for base island.</li>
+                              <li>Game State & Quest Management.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>HAYRIDE is a farming game with smooth controls. You will grow
+                            crops and fruits, raise livestock animals, produce goods, fill orders from the townsfolk,
+                            sell your goods at the roadside shop, and even visit other farms. And you will have many
+                            followers if you decorate your farm nicely!</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Sep 2012 - Feb 2013</h5>
+                            <span class="item-company">Dena, Japan</span>
+                            <span class="item-company">GameView Studios</span>
+                            <span class="item-company">Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Fatal Frontier</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>NGCore (JS based cross-platform game engine),
+                              NGServer (Node based server optimized for NGCore clients)<br />
+                              <b>Contributions:</b>
+                            <ul>
+                              <li>PvP Battle.</li>
+                              <li>Shop & inApp purchases.</li>
+                              <li>Game Events Management.</li>
+                              <li>TileMapView for different levels.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>A gacha fusion game where you battle and capture hundreds of
+                            enemies, customize your squad to add some strategy to your fights. discover alien
+                            technology, and use it to your advantage!</p>
+                          </div>
+                        </div>
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Nov 2011 - Jul 2012</h5>
+                            <span class="item-company">GameView Studios</span>
+                            <span class="item-company">Software Engineer.</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Wonder Cove</h4>
+                            <p><b>Tools & Technologies:&nbsp;&nbsp;</b>NGCore (JS based cross-platform game engine)
+                              <br /><b>Contributions:</b>
+                            <ul>
+                              <li>Shop & inApp purchases.</li>
+                              <li>IsometricView for base island.</li>
+                              <li>Game State & Quest Management.</li>
+                            </ul>
+                            <b>Description:&nbsp;&nbsp;</b>A farm based social game where users can select a Male/Female
+                            avatar that is stuck on an unknown island and tends to make their way back home by
+                            completing quests that involve growing crops, removing weeds, helping and visiting friends
+                            and so much more.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
