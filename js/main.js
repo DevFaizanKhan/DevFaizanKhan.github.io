@@ -64,6 +64,7 @@
   function mobileMenuHide() {
     var windowWidth = $(window).width(),
       siteHeader = $('#site_header');
+    $('#mobile_menu_icon').removeClass('fa-times');
 
     if (windowWidth < 992) {
       siteHeader.addClass('mobile-menu-hide');
